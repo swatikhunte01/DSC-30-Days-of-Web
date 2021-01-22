@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- navbar part -->
+<nav class="navbar">
+<a href="#">Portfo<span>lio</span></a>
+
+<!--menu section-->
+<ul class="menu">
+<li><a href="#home" class="menu-btn">Home</a></li>
+<li><a href="#about" class="menu-btn">About</a></li>
+<li><a href="#services" class="menu-btn">Work</a></li>
+<li><a href="#skills" class="menu-btn">Skills</a></li>
+<li><a href="#contact" class="menu-btn">Contact</a></li>
+</ul>
+<div class="menu-btn">       
+ </div>
+</div>
+</nav>
+
+    <!--Form action part-->
+<form action="#">
+        <div class="fields">
+                <div class="field fname">
+             <input type="text" placeholder="Fname" required>
+            </div><br>
+            <div class="field lname">
+            <input type="text" placeholder="Lname" required>
+            </div><br>
+        <div class="field email">
+         <input type="email" placeholder="Email" required autocomplete="email">
+        </div><br>
+         <div class="field number">
+         <input type="text" placeholder="phone no" required>
+        </div><br>
+    </div>
+    <button type="submit">submit</button>
+</div>
+</form><br>
+<!--Image part-->
+<img src="image/img1.jpeg" alt=""width="50%" height="50%"><br><br>
+<!--Video part-->
+<button onclick="playPause()">Play/Pause</button> <br>
+    <video id="video1" width="420">
+      <source src="swati1.mp4" type="video/mp4">
+    </video>
+  </div> 
+</section><br>
+<!--Table part-->
+<h2>Hobbies</h2>
+<table style="width:10%" border="2px solid black">
+    <tr>
+      <td>Singing</td>
+    </tr>
+      <tr>
+      <td>Dancing</td>
+      </tr>
+      <tr>
+      <td>Badminton</td>
+    </tr>
+  </table><br>
+ <!-- footer part -->
+    <footer>
+        <span>Created By <a href="#">Swati Khunte</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+    <script> 
+        var myVideo = document.getElementById("video1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        </script>
+</body>
+</html>
